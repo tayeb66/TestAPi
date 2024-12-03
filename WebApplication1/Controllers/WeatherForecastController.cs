@@ -26,6 +26,7 @@ public class WeatherForecastController : ControllerBase
         Console.WriteLine(numberMap[1]);
         return numberMap;
     }
+    
 
     [HttpGet("fruit")]
     public Dictionary<string,List<string>> GetFruits()
